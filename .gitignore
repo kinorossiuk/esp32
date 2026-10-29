@@ -1,33 +1,10 @@
-# Local environment and credentials
-.env
-.env.*
-!.env.example
-secrets.h
-secrets.json
-secrets.yaml
-secrets.yml
-config.local.*
-*.pem
-*.key
-
-# Firmware output
-.pio/
-build/
-sdkconfig
-sdkconfig.old
-
-# Python and local runtime data
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-data/
-*.log
-
-# Local tools and editor state
+# Local tools and credentials
 .agents/
 .aws/
 .codex/
-.idea/
-.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
 .DS_Store
